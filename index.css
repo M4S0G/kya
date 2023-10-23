@@ -1,0 +1,55 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+}
+
+.container {
+  border: 1px solid black;
+}
+
+.post_container {
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.post_title {
+  display: flex;
+  align-items: right;
+  font-size: 12px;
+}
+
+.user_img {
+  border-radius: 50%;
+  display: flex;
+  width: 35px;
+  height: 35px;
+}
+
+.display{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.product_photo{
+  display: flex;
+  max-height: 300px;
+  max-width: 400px;
+}
+
+.post_price{
+
+}
+
+.user_info{
+  display: flex;
+  align-items: baseline;
+}
+
+.p-user_info{
+  display: flex;
+  justify-content: flex-start;
+}
